@@ -11,7 +11,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-  deploy-react-app:
+  build-react-app:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install package.json
-      - run: npm test
+      - run: npm run build
