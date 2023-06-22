@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg1 from "../assets/img/header-img.svg";
 import headerImg from "../assets/img/robo-in-space-transparent-bg.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
