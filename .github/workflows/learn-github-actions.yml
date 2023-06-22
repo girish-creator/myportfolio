@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install package.json
-      - run: npm start
+      - run: npm test
