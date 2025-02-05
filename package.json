@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "https://girish-nair-portfolio.github.io/myportfolio",
+  "homepage": "https://girish-creator.github.io/myportfolio",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
