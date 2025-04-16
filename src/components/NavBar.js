@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo1 from '../assets/img/logo.svg';
 import logo from '../assets/img/gnp-logo-5.png';
 import linkedin_icon from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import github_icon from '../assets/img/github-icon-240.svg';
 import { HashLink } from 'react-router-hash-link';

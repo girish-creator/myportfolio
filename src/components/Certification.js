@@ -1,6 +1,3 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -27,7 +24,7 @@ import bambooImage from "../assets/img/bamboo-svgrepo-com.svg"
 import androidImage from "../assets/img/android-color-svgrepo-com.svg"
 import cmdImage from "../assets/img/command-line-svgrepo-com.svg"
 
-export const Skills = () => {
+export const Certification = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -52,37 +49,9 @@ export const Skills = () => {
     <section className="skill" id="skills">
         <div className="container">
             <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Core Competencies</h2>
-                        <p>I'm a software engineer with strong core competencies in the below areas.</p>
-                        <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={2000} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Python Back-end Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Full Stack Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Test Automation Framework Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>ETL Application Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Software Testing</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
-                <div className="skill-bx-2 wow zoomIn">
-                        <h2>Technologies</h2>
-                        <p>I leverage these skills to build robust, scalable solutions across diverse technologies.</p>
+                <div className="certs-bx wow zoomIn">
+                        <h2>Certifications & Bages</h2>
+                        <p></p>
                         <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={2000} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={pythonImage} alt="Image" />
