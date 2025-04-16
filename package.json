@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "homepage": "https://girish-creator.github.io/myportfolio",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.16.4",
